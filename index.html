@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Gift for Sera</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Hearts Animation -->
+    <div class="hearts"></div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <h1>💖 Happy Valentine's Day, Sera! 💖</h1>
+        <p>Click the gift box for a surprise!</p>
+
+        <!-- Gift Box -->
+        <div class="gift-box" onclick="openGift()">
+            <div class="lid"></div>
+            <div class="box"></div>
+            <div class="ribbon"></div>
+        </div>
+
+        <!-- Hidden Surprise -->
+        <div id="surprise-content" class="hidden">
+            <h2>My Love Letter to You 💌</h2>
+            <p>Dear Sera,</p>
+            <p>You are the most beautiful part of my life. Every moment with you is a blessing. I love you endlessly! 💖</p>
+
+            <!-- Animated Slideshow -->
+            <div id="slideshow-container" class="slideshow">
+                <h2>Our Beautiful Moments Together 💕</h2>
+                <div class="slide-container">
+                    <img src="1.jpeg" class="slide active">
+                    <img src="2.jpeg" class="slide">
+                    <img src="3.jpeg" class="slide">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
